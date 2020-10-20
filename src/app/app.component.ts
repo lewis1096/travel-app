@@ -16,8 +16,8 @@ export class AppComponent {
   //numOfTravelers:number = 0;
   //totalPrice:number = 0;
 
-  calcTotal(): void{
-    this.totalPrice = this.numOfTravelers*150;
+  calcTotal(): number{
+    return this.totalPrice = this.numOfTravelers*150;
   }
 
 
