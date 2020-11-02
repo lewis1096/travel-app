@@ -15,6 +15,7 @@ import { AboutComponent } from './about/about.component';
    ],
   imports: [
     BrowserModule,
+    FormsModule
 
   ],
   providers: [],
