@@ -3,22 +3,30 @@ import { NgModule } from '@angular/core';
 
 import { FormsModule } from '@angular/forms';
 
+import { RouterModule, Routes } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
 import { TravelRequestComponent } from './travel-request/travel-request.component';
 import { AboutComponent } from './about/about.component';
 
+const routes: Routes = [
+
+  {path: 'flightdetails', component:TravelRequestComponent},
+  {path: 'about', component:AboutComponent},
+  {path: '', redirectTo: '/about', pathMatch: 'full'}
+];
 
 @NgModule({
-  declarations: [		
+  declarations: [
     AppComponent,
       TravelRequestComponent,
       AboutComponent
    ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(routes)
 
   ],
   providers: [],
