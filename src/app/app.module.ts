@@ -7,12 +7,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TravelRequestComponent } from './travel-request/travel-request.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
-      TravelRequestComponent
+      TravelRequestComponent,
+      AboutComponent
    ],
   imports: [
     BrowserModule,
