@@ -6,12 +6,13 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { TravelRequestComponent } from './travel-request/travel-request.component';
 
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
-      
+      TravelRequestComponent
    ],
   imports: [
     BrowserModule,
