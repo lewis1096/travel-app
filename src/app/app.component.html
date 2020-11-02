@@ -1,49 +1,49 @@
-  <form action = "/action_page.php">
+<form action = "/action_page.php">
 
-<h2>Welcome {{title}}</h2>
-<p>OS: MacOS Test
-<p>IDE: VS Code
+  <h2>Welcome {{title}}</h2>
+  <p>OS: MacOS Test
+  <p>IDE: VS Code
 
-    <label for = "name">Name:</label>
-    <input type = "text" id="name" name="name"><br><br>
-
-
-
-
-    <label for = "origin"> Select an origin airport:</label>
-    <select name="origin" id="origin">
-      <option value="ORD">ORD</option>
-      <option value="MDW">MDW</option>
-      <option value="JFK">JFK</option>
-      <option value="DFW">DFW</option>
-    </select><br><br>
-
-
-    <label for = "destination"> Select a destination airport:</label>
-    <select name="destination" id="destination">
-      <option value="ORD">ORD</option>
-      <option value="MDW">MDW</option>
-      <option value="JFK">JFK</option>
-      <option value="DFW">DFW</option>
-    </select><br><br>
-
-
-    <label for = "travelDate"> Enter travel date:</label>
-    <input type = "date" id="travelDate" name = "travelDate" min = "2020-10-01"><br><br>
-
-    <label for = "numOfTravelers"> Num of travelers:</label>
-    <input
-          type = "number" id="numOfTravelers"
-          name = "numOfTravelers" min = "1" max= "20"><br><br>
+      <label for = "name">Name:</label>
+      <input type = "text" id="name" name="name"><br><br>
 
 
 
-    <button (click) = "calcTotal()"
-      class = "btn btn-light text-info">
-      SUBMIT
-    </button>
+
+      <label for = "origin"> Select an origin airport:</label>
+      <select name="origin" id="origin">
+        <option value="ORD">ORD</option>
+        <option value="MDW">MDW</option>
+        <option value="JFK">JFK</option>
+        <option value="DFW">DFW</option>
+      </select><br><br>
+
+
+      <label for = "destination"> Select a destination airport:</label>
+      <select name="destination" id="destination">
+        <option value="ORD">ORD</option>
+        <option value="MDW">MDW</option>
+        <option value="JFK">JFK</option>
+        <option value="DFW">DFW</option>
+      </select><br><br>
+
+
+      <label for = "travelDate"> Enter travel date:</label>
+      <input type = "date" id="travelDate" name = "travelDate" min = "2020-10-01"><br><br>
+
+      <label for = "numOfTravelers"> Num of travelers:</label>
+      <input
+            type = "number" id="numOfTravelers"
+            name = "numOfTravelers" min = "1" max= "20"><br><br>
 
 
 
-  </form>
+      <button (click) = "calcTotal()"
+        class = "btn btn-light text-info">
+        SUBMIT
+      </button>
+
+
+
+    </form>
 
