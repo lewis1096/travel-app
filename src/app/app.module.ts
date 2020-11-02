@@ -14,7 +14,7 @@ const routes: Routes = [
 
   {path: 'flightdetails', component:TravelRequestComponent},
   {path: 'about', component:AboutComponent},
-  {path: '', redirectTo: '/about', pathMatch: 'full'}
+  {path: '', redirectTo: '/', pathMatch: 'full'}
 ];
 
 @NgModule({
